@@ -1,0 +1,11 @@
+Gyro-scale-factor: 0.00046875
+Gyro-bias: 0.0009375
+Gyro-walking-bias: 0
+Acc-scale-factor: 0.0005
+Acc-bias: 0.001
+Acc-walking-bias: 0
+start_compute_time: 1557924817.263034 #1557924809.3 #1557924784.3  # 1557924854.9
+end_compute_time: 1557924821.711114
+ICP_Iterations: 3
+# general
+Bag_Path: "/home/noah/Downloads/dataset1.bag"

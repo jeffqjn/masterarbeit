@@ -1,0 +1,8 @@
+prefix=/home/noah/masterarbeit/devel
+
+Name: velocity2state2
+Description: Description of velocity2state2
+Version: 0.0.0
+Cflags: -I/home/noah/masterarbeit/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime

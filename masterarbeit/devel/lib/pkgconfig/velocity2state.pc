@@ -1,0 +1,8 @@
+prefix=/home/noah/masterarbeit/devel
+
+Name: velocity2state
+Description: Description of velocity2state
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+velocity2state2
+-DCATKIN_DEVEL_PREFIX=/home/noah/masterarbeit/devel -DCMAKE_INSTALL_PREFIX=/home/noah/masterarbeit/install -G Unix Makefiles

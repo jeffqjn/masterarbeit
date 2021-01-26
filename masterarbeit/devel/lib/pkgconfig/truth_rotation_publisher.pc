@@ -1,0 +1,8 @@
+prefix=/home/noah/masterarbeit/devel
+
+Name: truth_rotation_publisher
+Description: Description of truth_rotation_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

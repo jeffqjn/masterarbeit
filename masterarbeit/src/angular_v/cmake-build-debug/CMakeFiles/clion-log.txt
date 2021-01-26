@@ -1,0 +1,57 @@
+/home/noah/Desktop/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/noah/masterarbeit/src/angular_v
+-- Using CATKIN_DEVEL_PREFIX: /home/noah/masterarbeit/src/angular_v/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/noah/Downloads/qt-everywhere-src-5.15.2/qtbase
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/noah/masterarbeit/src/angular_v/cmake-build-debug/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: 
+-- Configuring done
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::Core" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::Gui" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::Widgets" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::Test" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::Concurrent" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:155 (add_executable):
+  Target "angular_v" links to target "Qt5::OpenGL" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
